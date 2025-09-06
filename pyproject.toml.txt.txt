@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signal_ICT_DhyeyMarvaniya_92400133061"
+version = "0.1"
+description = "Signal Generation and Operations package for demonstration"
+authors = [
+  { name = "DhyeyMarvaniya", email = "dhyeykumar.marvaniya127647@marwadiuniversity.ac.in" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.6"
+dependencies = [
+  "numpy",
+  "matplotlib"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
